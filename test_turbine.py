@@ -225,7 +225,7 @@ if run_button:
         stroke='transparent'
     )
 
-    st.write("### 🎨 Aesthetic Combined Power & Efficiency Chart")
+    st.write("Power & Efficiency Chart")
     # `use_container_width` is deprecated; replace with `width='stretch'` to keep previous behavior
     st.altair_chart(combined_chart, width='stretch')
 
