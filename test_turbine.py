@@ -226,7 +226,8 @@ if run_button:
     )
 
     st.write("### 🎨 Aesthetic Combined Power & Efficiency Chart")
-    st.altair_chart(combined_chart, use_container_width=True)
+    # `use_container_width` is deprecated; replace with `width='stretch'` to keep previous behavior
+    st.altair_chart(combined_chart, width='stretch')
 
     # Download results
     st.download_button("⬇️ Download Results CSV", df.to_csv(index=False), file_name="turbine_results.csv")
