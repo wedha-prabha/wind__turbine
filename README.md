@@ -104,7 +104,7 @@ In the web app, users can visualize how wind energy gets converted into electric
 ---
 
 ## 👩‍💻 Author
-**Suki**  
+**Wedha Prabha**  
 Student | Renewable Energy Enthusiast
 
 ---
